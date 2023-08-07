@@ -1,0 +1,99 @@
+title {display: none;}
+
+meta  {display: none;}
+
+
+
+link {display: none;}
+
+body {
+  background-color: #f4f7fd;
+  color: #575e57;
+  font-family: 'lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  display: block;
+  margin: 8px
+  }
+
+div{
+  display: block;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+
+p {
+  display: block;
+  margin-block-start: 0,5em;
+  margin-block-end: 0,5em;
+  margin-inline-start: 5px;
+  margin-inline-end: 1px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h1 {color:rgb(3, 3, 68);
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+    color: #7ECE90;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+.container{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.card-white {
+    background-color: rgb(242, 243, 236);
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+ }
+
+ .list-inline li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+ }
+
+ @media (max-width: 540px) {
+    .container {
+    width: 300px;
+  }
+}
